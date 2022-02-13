@@ -4,7 +4,7 @@ import scrapy
 # xpath nombr_p_pcfactory = $x('//div[@class="p-relative"]/div/text()').map(x=>x.wholeText)
 # xpath precios_pcfactory = $x('//div[@class="product__price-texts"]/div[@class="title-md color-primary-1"]/text()').map(x=>x.wholeText)
 # xpath stock_pcfactory = $x('//div[@class="product__units"]/p/text()').map(x=>x.wholeText)
-# xpath pagina_siguiente_pcfactory = $x('//*[@id="app"]/div[5]/div/div[1]/div/div[2]/div[6]/div[2]/a/@href').map(x=>x.value)
+# xpath pagina_siguiente_pcfactory = $x('//div[@class="product__image"]/a/@href').map(x=>x.value)
 
 custom_settings = {
         'CURRENT_REQUESTS': 24,
@@ -25,9 +25,11 @@ class videoSpider(scrapy.Spider):
         nombre_p = response.xpath('//div[@class="p-relative"]/div/text()').getall()
         precio_p = response.xpath('//div[@class="product__price-texts"]/div[@class="title-md color-primary-1"]/text()').getall()
         stock_p = response.xpath('//div[@class="product__units"]/p/text()').getall()
+        links_p = response.xpath('//div[@class="product__image"]/a/@href').getall()
 
         yield {
             "nombre_p": nombre_p, 
             "precios_p": precio_p,
-            "stock_p" : stock_p
+            "stock_p" : stock_p,
+            "links_p" : links_p 
         }
