@@ -1,4 +1,11 @@
-import scrapy
+from scrapy.item import Field
+from scrapy.item import Item
+from scrapy.spiders import Spider
+from scrapy.selector import Selector
+from scrapy.loader.processors import MapCompose
+from scrapy.loader import ItemLoader
+#from bs4 import BeautifulSoup
+from scrapy.crawler import CrawlerProcess
 
 # xpath nombres_productos = $x('//*[@id="grid"]/div[2]/div/div//a/span/@data-original-title').map(x=>x.value)
 # xpath precios = $x('//div/div[@class="span2 product-item-mosaic"]/div[@class="cash-price"]/text()').map(x=>x.wholeText)
@@ -16,7 +23,7 @@ custom_settings = {
         'FEED_EXPORT_ENCODING': 'utf-8'
     }
     
-class videoSpider(scrapy.Spider):
+class videoSpider(Spider):
     name = 'spdigital'
     start_urls = [
         'https://www.spdigital.cl/categories/view/379/page:1'
@@ -57,3 +64,21 @@ class videoSpider(scrapy.Spider):
         next_page_button_link = response.xpath('//div[@class="pagination"]/ul/li/a[@class="next"]/@href').get()
         if next_page_button_link:
             yield response.follow(next_page_button_link, callback=self.parse_nextpages, cb_kwargs={'nombre_sp': nombre_sp, 'precios_sp': precios_sp, 'stock_sp': stock_sp, 'links_sp': links_sp})
+
+
+process = CrawlerProcess({
+    "FEEDS": {"./video_cards/preproceso/sp_pre.json": {"format": "json", "overwrite": True}},
+    'ROBOTSTXT_OBEY':'False',
+    'USER_AGENT': 'Mozilla/5.0',
+
+
+
+    #'AUTOTHROTTLE_ENABLED':'True',
+    #'AUTOTHROTTLE_START_DELAY': '1'
+    })
+
+     #guardado de archivos
+        
+
+process.crawl(videoSpider)
+process.start()
