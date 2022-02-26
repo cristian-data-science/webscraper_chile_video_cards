@@ -4,8 +4,8 @@ python3 ./video_cards/video_cards/spiders/autospdigital.py
 python3 ./video_cards/video_cards/spiders/autopcfactory.py
 python3 ./video_cards/video_cards/spiders/autowinpy.py
 
-# Modo de uso: copia o mueve este script a /usr/bin o /usr/local/bin y desde el directorio donde se encuentre la copia de un repo git, ejecútalo de esta manera:
-# uptogit <ficheros>
+#  copiar o mueve este script a /usr/bin o /usr/local/bin y desde el directorio donde se encuentre la copia de un repo git, ejecútalo de esta manera:
+# script + <ficheros>
 
 # Comprobamos si el directorio en el que estamos es de un repositorio git
 if [ ! -d '.git' ]; then
