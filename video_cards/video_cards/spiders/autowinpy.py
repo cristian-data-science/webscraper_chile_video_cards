@@ -61,7 +61,7 @@ class winpycrawler(CrawlSpider):
 
 
 process = CrawlerProcess({
-    "FEEDS": {"./video_cards/resultados/wpfinal.csv": {"format": "csv", "overwrite": True}},
+    "FEEDS": {"./video_cards/video_cards/resultados/wpfinal.csv": {"format": "csv", "overwrite": True}},
     'ROBOTSTXT_OBEY':'False',
     'USER_AGENT': 'Mozilla/5.0',
 
