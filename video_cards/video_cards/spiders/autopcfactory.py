@@ -37,7 +37,7 @@ class videoSpider(Spider):
         }
 
 process = CrawlerProcess({
-    "FEEDS": {"./video_cards/preproceso/pc_pre.csv": {"format": "csv", "overwrite": True}},
+    "FEEDS": {"./video_cards/video_cards/preproceso/pc_pre.csv": {"format": "csv", "overwrite": True}},
     'ROBOTSTXT_OBEY':'False',
     'USER_AGENT': 'Mozilla/5.0',
 
