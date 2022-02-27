@@ -67,7 +67,7 @@ class videoSpider(Spider):
 
 
 process = CrawlerProcess({
-    "FEEDS": {"./video_cards/video_cards/preproceso/sp_pre.json": {"format": "json", "overwrite": True}},
+    "FEEDS": {"/home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_cards/resultados/sp_pre.json": {"format": "json", "overwrite": True}},
     'ROBOTSTXT_OBEY':'False',
     'USER_AGENT': 'Mozilla/5.0',
 
