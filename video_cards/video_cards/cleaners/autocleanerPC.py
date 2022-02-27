@@ -1,8 +1,7 @@
 import pandas as pd
 import numpy as np
 
-datos = pd.read_csv('./preproceso/pc_pre.csv',delimiter=',')
-datos
+datos = pd.read_csv('/home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_cards/preproceso/pc_pre.csv',delimiter=',')
 
 # comienzo de limpieza convirtiendo en df y sacando traspuesta
 
@@ -60,4 +59,4 @@ df_final = df_final.drop(['links'], axis=1)
 
 df_final = df_final.drop_duplicates()
 
-df_final.to_csv('./resultados/pcfinal.csv', index=False)
+df_final.to_csv('/home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_cards/resultados/pcfinal.csv', index=False)

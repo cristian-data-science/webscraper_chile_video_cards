@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
-datos = pd.read_json('./preproceso/sp_pre.json')
+
+datos = pd.read_json('/home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_cards/preproceso/sp_pre.json')
 
 nombre_sp = datos['nombre_sp']
 #nombre_sp = nombre_sp.str.replace("\n                                ","")
@@ -40,4 +41,4 @@ df_final['enlaces'] = df_final['url'] + df_final['links_sp']
 df_final = df_final.drop(['url'], axis=1)
 df_final = df_final.drop(['links_sp'], axis=1)
 
-df_final.to_csv('./resultados/spfinal.csv', index=True, encoding="latin-1")
+df_final.to_csv('/home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_cards/resultados/spfinal.csv', index=True, encoding="latin-1")
