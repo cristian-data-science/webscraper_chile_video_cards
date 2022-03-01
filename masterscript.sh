@@ -2,9 +2,16 @@
 
 # ejecutando crawlers
 
-python3 ./video_cards/video_cards/spiders/autospdigital.py
+#python3 ./video_cards/video_cards/spiders/autospdigital.py
 python3 ./video_cards/video_cards/spiders/autopcfactory.py
 python3 ./video_cards/video_cards/spiders/autowinpy.py
+
+# ejecutando data cleaners
+
+python3 ./video_cards/video_cards/cleaners/autocleanerPC.py
+#python3 ./video_cards/video_cards/cleaners/autocleanerSP.py
+python3 ./video_cards/video_cards/cleaners/autounify.py
+
 
 #  copiar o mover este script a /usr/bin o /usr/local/bin y desde el directorio donde se encuentre la copia de un repo git, ejecútalo de esta manera:
 # script + <ficheros>

@@ -1,0 +1,288 @@
+
+
+Sun Feb 27 00:49:07 2022
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.11.0-1028-aws (#31~20.04.1-Ubuntu SMP Fri Jan 14 14:37:50 UTC 2022) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop4 - 0 B - 0 sectors (RO), sector size=512
+Warning: can't get size for Disk /dev/loop6 - 0 B - 0 sectors (RO), sector size=512
+Warning: can't get size for Disk /dev/loop8 - 0 B - 0 sectors (RO), sector size=512
+Hard disk list
+Disk /dev/xvda - 21 GB / 20 GiB - CHS 2610 255 63, sector size=512
+Disk /dev/loop0 - 71 MB / 67 MiB - 139104 sectors (RO), sector size=512
+Disk /dev/loop1 - 26 MB / 24 MiB - 51152 sectors (RO), sector size=512
+Disk /dev/loop10 - 45 MB / 43 MiB - 89264 sectors (RO), sector size=512
+Disk /dev/loop11 - 64 MB / 61 MiB - 126752 sectors (RO), sector size=512
+Disk /dev/loop2 - 58 MB / 55 MiB - 113640 sectors (RO), sector size=512
+Disk /dev/loop3 - 58 MB / 55 MiB - 113680 sectors (RO), sector size=512
+Disk /dev/loop5 - 64 MB / 61 MiB - 126792 sectors (RO), sector size=512
+Disk /dev/loop7 - 70 MB / 67 MiB - 137712 sectors (RO), sector size=512
+Disk /dev/loop9 - 27 MB / 26 MiB - 54552 sectors (RO), sector size=512
+
+Partition table type (auto): Intel
+Disk /dev/xvda - 21 GB / 20 GiB
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=213 sector=1
+ 1 * Linux                    0  32 33  2610 212  1   41940959 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+
+
+dir_partition inode=2
+ 1 * Linux                    0  32 33  2610 212  1   41940959 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096 14-Feb-2022 21:47 .
+       2 drwxr-xr-x     0      0      4096 14-Feb-2022 21:47 ..
+      11 drwx------     0      0     16384 30-Apr-2021 23:30 lost+found
+      12 lrwxrwxrwx     0      0         7 30-Apr-2021 23:15 bin
+      13 drwxr-xr-x     0      0      4096 17-Feb-2022 06:42 boot
+      26 drwxr-xr-x     0      0      4096 30-Apr-2021 23:25 dev
+      43 drwxr-xr-x     0      0      4096 26-Feb-2022 23:42 etc
+    1497 drwxr-xr-x     0      0      4096 14-Feb-2022 14:58 home
+    1498 lrwxrwxrwx     0      0         7 30-Apr-2021 23:15 lib
+    1499 lrwxrwxrwx     0      0         9 30-Apr-2021 23:15 lib32
+    1500 lrwxrwxrwx     0      0         9 30-Apr-2021 23:15 lib64
+    1501 lrwxrwxrwx     0      0        10 30-Apr-2021 23:15 libx32
+    1502 drwxr-xr-x     0      0      4096 30-Apr-2021 23:15 media
+    1503 drwxr-xr-x     0      0      4096 30-Apr-2021 23:15 mnt
+    1504 drwxr-xr-x     0      0      4096 17-Sep-2021 22:38 opt
+    1505 drwxr-xr-x     0      0      4096 15-Apr-2020 11:09 proc
+    1506 drwx------     0      0      4096 26-Feb-2022 22:22 root
+    1509 drwxr-xr-x     0      0      4096 30-Apr-2021 23:38 run
+    1513 lrwxrwxrwx     0      0         8 30-Apr-2021 23:15 sbin
+     434 drwxr-xr-x     0      0      4096 19-Sep-2021 01:17 snap
+    1534 drwxr-xr-x     0      0      4096 30-Apr-2021 23:15 srv
+    1535 drwxr-xr-x     0      0      4096 15-Apr-2020 11:09 sys
+    1536 drwxrwxrwt     0      0      4096 27-Feb-2022 00:45 tmp
+    1537 drwxr-xr-x     0      0      4096 30-Apr-2021 23:22 usr
+   63702 drwxr-xr-x     0      0      4096 26-Sep-2021 00:24 var
+    1823 -rw-------     0      0 1024000000 17-Sep-2021 23:25 swapfile
+ 2048001 drwxr-xr-x     0      0      4096 19-Sep-2021 02:14 mysql
+ 1792001 drwxr-xr-x    33     33      4096 18-Sep-2021 00:08 src
+ 1536001 drwxr-xr-x   999      0      4096 19-Sep-2021 03:19 data
+ 2304001 drwxr-xr-x    33     33      4096 19-Sep-2021 02:53 html
+X   1371 -rw-r--r--     0      4     12986 14-Feb-2022 04:46 .ismount-test-file
+
+dir_partition inode=1497
+ 1 * Linux                    0  32 33  2610 212  1   41940959 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home
+    1497 drwxr-xr-x     0      0      4096 14-Feb-2022 14:58 .
+       2 drwxr-xr-x     0      0      4096 14-Feb-2022 21:47 ..
+  256106 drwxr-xr-x  1000   1000      4096 26-Feb-2022 22:43 ubuntu
+ 1311297 drwxr-xr-x     0      0      4096 19-Sep-2021 02:52 dockerRicardo
+X   3714 -rw-r--r--     0      4     13064 13-Feb-2022 19:32 docker-compose.yml
+
+dir_partition inode=256106
+ 1 * Linux                    0  32 33  2610 212  1   41940959 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/ubuntu
+  256106 drwxr-xr-x  1000   1000      4096 26-Feb-2022 22:43 .
+    1497 drwxr-xr-x     0      0      4096 14-Feb-2022 14:58 ..
+  256107 -rw-r--r--  1000   1000      3771 25-Feb-2020 12:03 .bashrc
+  256108 -rw-r--r--  1000   1000       807 25-Feb-2020 12:03 .profile
+  256109 -rw-r--r--  1000   1000       220 25-Feb-2020 12:03 .bash_logout
+  256111 drwx------  1000   1000      4096 17-Sep-2021 22:33 .ssh
+  256134 drwx------  1000   1000      4096 17-Sep-2021 22:33 .cache
+  525306 drwxr-xr-x     0      0      4096 26-Sep-2021 00:23 dockerwpfast
+  256197 -rw-r--r--  1000   1000         0 17-Sep-2021 22:34 .sudo_as_admin_successful
+  528599 drwx------  1000   1000      4096 17-Sep-2021 22:55 .config
+  256136 -rw-------  1000   1000     12983 26-Sep-2021 20:19 .bash_history
+  528308 drwxr-xr-x     0      0      4096 17-Sep-2021 23:25 swap1g-ubuntu
+  782817 drwxrwxr-x  1000   1000      4096 17-Sep-2021 23:50 .local
+ 1052942 drwxr-xr-x  1000   1000      4096 18-Sep-2021 01:44 dockerwpfast.bak
+  528291 drwxrwxr-x  1000   1000      4096 25-Sep-2021 19:45 .vscode-server
+  256138 -rw-rw-r--  1000   1000       183 25-Sep-2021 19:45 .wget-hsts
+ 1310847 drwxrwxr-x  1000   1000      4096 19-Sep-2021 01:23 .vscode
+ 1313805 drwxr-xr-x     0      0      4096 19-Sep-2021 03:22 wp
+  787380 drwxr-xr-x     0      0      4096 26-Sep-2021 03:32 testnginx
+  787614 drwxr-xr-x     0      0      4096 27-Sep-2021 05:10 finaldockerssl
+X 304624 drwxr-xr-x     0      0      4096 26-Feb-2022 23:28 video_cards
+  272001 drwxr-xr-x     0      0      4096 26-Feb-2022 22:21 gitprojects
+
+dir_partition inode=272001
+ 1 * Linux                    0  32 33  2610 212  1   41940959 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/ubuntu/gitprojects
+  272001 drwxr-xr-x     0      0      4096 26-Feb-2022 22:21 .
+  256106 drwxr-xr-x  1000   1000      4096 26-Feb-2022 22:43 ..
+X 160003 drwxrwxrwt     0      0      4096 14-Feb-2022 21:47 venv
+  272002 drwxr-xr-x     0      0      4096 13-Feb-2022 16:54 .git
+X 256262 -r--r--r--     0      0       176 15-Feb-2022 03:09 .gitignore
+  272012 drwxr-xr-x     0      0      4096 17-Feb-2022 04:46 price_tracker_webapp
+  304124 drwxr-xr-x     0      0      4096 27-Feb-2022 00:47 webscraper_chile_video_cards
+
+dir_partition inode=304124
+ 1 * Linux                    0  32 33  2610 212  1   41940959 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/ubuntu/gitprojects/webscraper_chile_video_cards
+  304124 drwxr-xr-x     0      0      4096 27-Feb-2022 00:47 .
+  272001 drwxr-xr-x     0      0      4096 26-Feb-2022 22:21 ..
+  304125 drwxr-xr-x     0      0      4096 27-Feb-2022 00:45 .git
+  291020 -rw-r--r--     0      0     35149 26-Feb-2022 22:21 LICENSE
+  291021 -rw-r--r--     0      0        94 26-Feb-2022 22:21 README.md
+  304216 drwxr-xr-x     0      0      4096 27-Feb-2022 00:02 video_cards
+  304223 drwxr-xr-x     0      0      4096 26-Feb-2022 22:23 venv
+  291017 -rw-r--r--     0      0        41 26-Feb-2022 23:12 .gitignore
+  299153 -rw-r--r--     0      0      8575 27-Feb-2022 00:47 testdisk.log
+  291038 -rwxr-xr-x     0      0      1170 26-Feb-2022 23:58 masterscript.sh
+
+dir_partition inode=304216
+ 1 * Linux                    0  32 33  2610 212  1   41940959 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards
+  304216 drwxr-xr-x     0      0      4096 27-Feb-2022 00:02 .
+  304124 drwxr-xr-x     0      0      4096 27-Feb-2022 00:47 ..
+  291022 -rw-r--r--     0      0     12641 26-Feb-2022 22:21 limpiador.ipynb
+  291023 -rw-r--r--     0      0     59333 27-Feb-2022 00:02 limpiadorFullPCFactory.ipynb
+  291024 -rw-r--r--     0      0     79243 27-Feb-2022 00:25 limpiadorFullSPDigital.ipynb
+  291025 -rw-r--r--     0      0       265 26-Feb-2022 22:21 scrapy.cfg
+  291026 -rw-r--r--     0      0     15804 26-Feb-2022 22:21 unificador.ipynb
+  304217 drwxr-xr-x     0      0      4096 27-Feb-2022 00:09 video_cards
+X 291023 -rw-r--r--     0      0     59333 27-Feb-2022 00:02 limpiadorFullPCFactory.py
+
+dir_partition inode=304217
+ 1 * Linux                    0  32 33  2610 212  1   41940959 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_cards
+  304217 drwxr-xr-x     0      0      4096 27-Feb-2022 00:09 .
+  304216 drwxr-xr-x     0      0      4096 27-Feb-2022 00:02 ..
+  291027 -rw-r--r--     0      0         0 26-Feb-2022 22:21 __init__.py
+  304218 drwxr-xr-x     0      0      4096 26-Feb-2022 22:31 __pycache__
+  291030 -rw-r--r--     0      0       266 26-Feb-2022 22:21 items.py
+  291031 -rw-r--r--     0      0      3656 26-Feb-2022 22:21 middlewares.py
+  291032 -rw-r--r--     0      0       364 26-Feb-2022 22:21 pipelines.py
+  304219 drwxr-xr-x     0      0      4096 27-Feb-2022 00:36 preproceso
+  304220 drwxr-xr-x     0      0      4096 27-Feb-2022 00:45 resultados
+  291040 -rw-r--r--     0      0      3109 26-Feb-2022 22:21 settings.py
+  304221 drwxr-xr-x     0      0      4096 27-Feb-2022 00:09 spiders
+  304811 drwxr-xr-x     0      0      4096 27-Feb-2022 00:44 cleaners
+
+dir_partition inode=304811
+ 1 * Linux                    0  32 33  2610 212  1   41940959 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 21 GB / 19 GiB
+Directory /home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_cards/cleaners
+  304811 drwxr-xr-x     0      0      4096 27-Feb-2022 00:44 .
+  304217 drwxr-xr-x     0      0      4096 27-Feb-2022 00:09 ..
+  299155 -rw-r--r--     0      0      1718 27-Feb-2022 00:41 autocleanerPC.py
+X 291029 -rw-r--r--     0      0     11853 27-Feb-2022 00:45 pc_pre.csv
+  299150 -rw-r--r--     0      0     12944 27-Feb-2022 00:21 pruebaPCAUTO.csv
+  299157 -rw-r--r--     0      0      1972 27-Feb-2022 00:44 autocleanerSP.py
+  299158 -rw-r--r--     0      0     79678 27-Feb-2022 00:28 sp_pre.json
+  299159 -rw-r--r--     0      0      2062 27-Feb-2022 00:29 pruebaSPAUTO.csv
+X 299160 -r--r--r--     0      0       699 27-Feb-2022 00:45 autounify.py
+  299161 -rw-r--r--     0      0      2175 27-Feb-2022 00:32 wpfinal.csv
+X 299162 -r--r--r--     0      0       637 27-Feb-2022 00:45 resultadofinal.csv
+X 299163 -r--r--r--     0      0       625 27-Feb-2022 00:45 top_stock.csv
+Directory /home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_cards
+  304217 drwxr-xr-x     0      0      4096 27-Feb-2022 00:09 .
+  304216 drwxr-xr-x     0      0      4096 27-Feb-2022 00:02 ..
+  291027 -rw-r--r--     0      0         0 26-Feb-2022 22:21 __init__.py
+  304218 drwxr-xr-x     0      0      4096 26-Feb-2022 22:31 __pycache__
+  291030 -rw-r--r--     0      0       266 26-Feb-2022 22:21 items.py
+  291031 -rw-r--r--     0      0      3656 26-Feb-2022 22:21 middlewares.py
+  291032 -rw-r--r--     0      0       364 26-Feb-2022 22:21 pipelines.py
+  304219 drwxr-xr-x     0      0      4096 27-Feb-2022 00:36 preproceso
+  304220 drwxr-xr-x     0      0      4096 27-Feb-2022 00:45 resultados
+  291040 -rw-r--r--     0      0      3109 26-Feb-2022 22:21 settings.py
+  304221 drwxr-xr-x     0      0      4096 27-Feb-2022 00:09 spiders
+  304811 drwxr-xr-x     0      0      4096 27-Feb-2022 00:44 cleaners
+Directory /home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards
+  304216 drwxr-xr-x     0      0      4096 27-Feb-2022 00:02 .
+  304124 drwxr-xr-x     0      0      4096 27-Feb-2022 00:47 ..
+  291022 -rw-r--r--     0      0     12641 26-Feb-2022 22:21 limpiador.ipynb
+  291023 -rw-r--r--     0      0     59333 27-Feb-2022 00:02 limpiadorFullPCFactory.ipynb
+  291024 -rw-r--r--     0      0     79243 27-Feb-2022 00:25 limpiadorFullSPDigital.ipynb
+  291025 -rw-r--r--     0      0       265 26-Feb-2022 22:21 scrapy.cfg
+  291026 -rw-r--r--     0      0     15804 26-Feb-2022 22:21 unificador.ipynb
+  304217 drwxr-xr-x     0      0      4096 27-Feb-2022 00:09 video_cards
+X 291023 -rw-r--r--     0      0     59333 27-Feb-2022 00:02 limpiadorFullPCFactory.py
+Directory /home/ubuntu/gitprojects/webscraper_chile_video_cards
+  304124 drwxr-xr-x     0      0      4096 27-Feb-2022 00:47 .
+  272001 drwxr-xr-x     0      0      4096 26-Feb-2022 22:21 ..
+  304125 drwxr-xr-x     0      0      4096 27-Feb-2022 00:45 .git
+  291020 -rw-r--r--     0      0     35149 26-Feb-2022 22:21 LICENSE
+  291021 -rw-r--r--     0      0        94 26-Feb-2022 22:21 README.md
+  304216 drwxr-xr-x     0      0      4096 27-Feb-2022 00:02 video_cards
+  304223 drwxr-xr-x     0      0      4096 26-Feb-2022 22:23 venv
+  291017 -rw-r--r--     0      0        41 26-Feb-2022 23:12 .gitignore
+  299153 -rw-r--r--     0      0      8575 27-Feb-2022 00:47 testdisk.log
+  291038 -rwxr-xr-x     0      0      1170 26-Feb-2022 23:58 masterscript.sh
+Directory /home/ubuntu/gitprojects
+  272001 drwxr-xr-x     0      0      4096 26-Feb-2022 22:21 .
+  256106 drwxr-xr-x  1000   1000      4096 26-Feb-2022 22:43 ..
+X 160003 drwxrwxrwt     0      0      4096 14-Feb-2022 21:47 venv
+  272002 drwxr-xr-x     0      0      4096 13-Feb-2022 16:54 .git
+X 256262 -r--r--r--     0      0       176 15-Feb-2022 03:09 .gitignore
+  272012 drwxr-xr-x     0      0      4096 17-Feb-2022 04:46 price_tracker_webapp
+  304124 drwxr-xr-x     0      0      4096 27-Feb-2022 00:47 webscraper_chile_video_cards
+Directory /home/ubuntu
+  256106 drwxr-xr-x  1000   1000      4096 26-Feb-2022 22:43 .
+    1497 drwxr-xr-x     0      0      4096 14-Feb-2022 14:58 ..
+  256107 -rw-r--r--  1000   1000      3771 25-Feb-2020 12:03 .bashrc
+  256108 -rw-r--r--  1000   1000       807 25-Feb-2020 12:03 .profile
+  256109 -rw-r--r--  1000   1000       220 25-Feb-2020 12:03 .bash_logout
+  256111 drwx------  1000   1000      4096 17-Sep-2021 22:33 .ssh
+  256134 drwx------  1000   1000      4096 17-Sep-2021 22:33 .cache
+  525306 drwxr-xr-x     0      0      4096 26-Sep-2021 00:23 dockerwpfast
+  256197 -rw-r--r--  1000   1000         0 17-Sep-2021 22:34 .sudo_as_admin_successful
+  528599 drwx------  1000   1000      4096 17-Sep-2021 22:55 .config
+  256136 -rw-------  1000   1000     12983 26-Sep-2021 20:19 .bash_history
+  528308 drwxr-xr-x     0      0      4096 17-Sep-2021 23:25 swap1g-ubuntu
+  782817 drwxrwxr-x  1000   1000      4096 17-Sep-2021 23:50 .local
+ 1052942 drwxr-xr-x  1000   1000      4096 18-Sep-2021 01:44 dockerwpfast.bak
+  528291 drwxrwxr-x  1000   1000      4096 25-Sep-2021 19:45 .vscode-server
+  256138 -rw-rw-r--  1000   1000       183 25-Sep-2021 19:45 .wget-hsts
+ 1310847 drwxrwxr-x  1000   1000      4096 19-Sep-2021 01:23 .vscode
+ 1313805 drwxr-xr-x     0      0      4096 19-Sep-2021 03:22 wp
+  787380 drwxr-xr-x     0      0      4096 26-Sep-2021 03:32 testnginx
+  787614 drwxr-xr-x     0      0      4096 27-Sep-2021 05:10 finaldockerssl
+X 304624 drwxr-xr-x     0      0      4096 26-Feb-2022 23:28 video_cards
+  272001 drwxr-xr-x     0      0      4096 26-Feb-2022 22:21 gitprojects
+Directory /home
+    1497 drwxr-xr-x     0      0      4096 14-Feb-2022 14:58 .
+       2 drwxr-xr-x     0      0      4096 14-Feb-2022 21:47 ..
+  256106 drwxr-xr-x  1000   1000      4096 26-Feb-2022 22:43 ubuntu
+ 1311297 drwxr-xr-x     0      0      4096 19-Sep-2021 02:52 dockerRicardo
+X   3714 -rw-r--r--     0      4     13064 13-Feb-2022 19:32 docker-compose.yml
+Directory /
+       2 drwxr-xr-x     0      0      4096 14-Feb-2022 21:47 .
+       2 drwxr-xr-x     0      0      4096 14-Feb-2022 21:47 ..
+      11 drwx------     0      0     16384 30-Apr-2021 23:30 lost+found
+      12 lrwxrwxrwx     0      0         7 30-Apr-2021 23:15 bin
+      13 drwxr-xr-x     0      0      4096 17-Feb-2022 06:42 boot
+      26 drwxr-xr-x     0      0      4096 30-Apr-2021 23:25 dev
+      43 drwxr-xr-x     0      0      4096 26-Feb-2022 23:42 etc
+    1497 drwxr-xr-x     0      0      4096 14-Feb-2022 14:58 home
+    1498 lrwxrwxrwx     0      0         7 30-Apr-2021 23:15 lib
+    1499 lrwxrwxrwx     0      0         9 30-Apr-2021 23:15 lib32
+    1500 lrwxrwxrwx     0      0         9 30-Apr-2021 23:15 lib64
+    1501 lrwxrwxrwx     0      0        10 30-Apr-2021 23:15 libx32
+    1502 drwxr-xr-x     0      0      4096 30-Apr-2021 23:15 media
+    1503 drwxr-xr-x     0      0      4096 30-Apr-2021 23:15 mnt
+    1504 drwxr-xr-x     0      0      4096 17-Sep-2021 22:38 opt
+    1505 drwxr-xr-x     0      0      4096 15-Apr-2020 11:09 proc
+    1506 drwx------     0      0      4096 26-Feb-2022 22:22 root
+    1509 drwxr-xr-x     0      0      4096 30-Apr-2021 23:38 run
+    1513 lrwxrwxrwx     0      0         8 30-Apr-2021 23:15 sbin
+     434 drwxr-xr-x     0      0      4096 19-Sep-2021 01:17 snap
+    1534 drwxr-xr-x     0      0      4096 30-Apr-2021 23:15 srv
+    1535 drwxr-xr-x     0      0      4096 15-Apr-2020 11:09 sys
+    1536 drwxrwxrwt     0      0      4096 27-Feb-2022 00:45 tmp
+    1537 drwxr-xr-x     0      0      4096 30-Apr-2021 23:22 usr
+   63702 drwxr-xr-x     0      0      4096 26-Sep-2021 00:24 var
+    1823 -rw-------     0      0 1024000000 17-Sep-2021 23:25 swapfile
+ 2048001 drwxr-xr-x     0      0      4096 19-Sep-2021 02:14 mysql
+ 1792001 drwxr-xr-x    33     33      4096 18-Sep-2021 00:08 src
+ 1536001 drwxr-xr-x   999      0      4096 19-Sep-2021 03:19 data
+ 2304001 drwxr-xr-x    33     33      4096 19-Sep-2021 02:53 html
+X   1371 -rw-r--r--     0      4     12986 14-Feb-2022 04:46 .ismount-test-file
+SIGINT detected! TestDisk has been killed.

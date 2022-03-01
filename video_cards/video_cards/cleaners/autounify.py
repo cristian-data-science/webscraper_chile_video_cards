@@ -31,5 +31,9 @@ pd.DataFrame(test2).reset_index(inplace=True, drop=False)
 filtro = test2['modelo'] !=  'OTROS'
 test2 = test2[filtro]
 
+test['precionumero'] = test['precios']
+test['precionumero'] = test['precionumero'].str.replace('$', '').str.replace('.', '')
+test['precionumero'] = test['precionumero'].astype(int)
+
 test.to_csv('/home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_cards/resultados/resultadofinal.csv')
 test2.to_csv('/home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_cards/resultados/top_stock.csv')
