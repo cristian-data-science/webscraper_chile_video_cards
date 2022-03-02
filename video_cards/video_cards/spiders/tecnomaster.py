@@ -61,7 +61,7 @@ class tecnomastercrawler(CrawlSpider):
 
 
 process = CrawlerProcess({
-    "FEEDS": {"/home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_cards/cleaners/TECNOMASTERTEST.csv": {"format": "csv", "overwrite": True}},
+    "FEEDS": {"/home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_cards/preproceso/tecnopre.csv": {"format": "csv", "overwrite": True}},
     'ROBOTSTXT_OBEY':'False',
     'USER_AGENT': 'Mozilla/5.0',
 
