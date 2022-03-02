@@ -5,10 +5,13 @@
 #python3 ./video_cards/video_cards/spiders/autospdigital.py
 python3 ./video_cards/video_cards/spiders/autopcfactory.py
 python3 ./video_cards/video_cards/spiders/autowinpy.py
+python3 ./video_cards/video_cards/spiders/tecnomaster.py
+
 
 # ejecutando data cleaners
 
 python3 ./video_cards/video_cards/cleaners/autocleanerPC.py
+python3 ./video_cards/video_cards/cleaners/autocleanerTN.py
 #python3 ./video_cards/video_cards/cleaners/autocleanerSP.py
 python3 ./video_cards/video_cards/cleaners/autounify.py
 
